@@ -20,6 +20,8 @@ class App extends Component {
     getUsers(page + 1);
   };
 
+  // render
+
   render() {
     const {
       all_users: { all_users, page, total, loading },
