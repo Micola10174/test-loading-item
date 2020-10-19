@@ -3,8 +3,8 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { getUsers } from "./actions/getUsersAction";
 import UserCard from "./components/UserCard/UserCard";
-import "./App.css";
 import Loader from "./components/loader/Loader";
+import "./App.css";
 
 class App extends Component {
   componentDidMount() {

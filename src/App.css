@@ -6,3 +6,9 @@
   text-align: center;
   list-style: none;
 }
+
+.test-css{
+  width: 100px;
+  height: 200px;
+  color: red;
+}
